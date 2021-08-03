@@ -1,4 +1,4 @@
-package exercio.java;
+package exercios1.java;
 import java.util.Scanner;
 public class quintoex5 {
 
