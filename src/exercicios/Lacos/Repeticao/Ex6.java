@@ -18,7 +18,7 @@ public class Ex6 {
 				cont++;
 			}
 			
-		}while((num-1)>=0);
+		}while(num!=0);
 		media=soma/cont;
 		System.out.println("A Média total foi de : "+media);
 		entrada.close();

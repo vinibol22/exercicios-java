@@ -12,7 +12,7 @@ public class Ex5 {
 			num=entrada.nextInt();
 			soma=soma+num;
 		}
-		while((num-1)>=0);
+		while(num!=0);
 
 		System.out.println("A soma dos números é de: "+soma);
 		
