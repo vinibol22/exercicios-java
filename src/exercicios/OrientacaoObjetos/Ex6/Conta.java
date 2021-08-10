@@ -7,7 +7,7 @@ public class Conta {
 	private String numconta;
 	private double divida;
 	private double salario;
-	
+	public double destino=saldo;
 	
 	
 	public void setsaldo(double saldo) {
@@ -57,6 +57,10 @@ public class Conta {
 			}
 		
 	
+			public void transfere(double destino ,double valor) {
+				this.saldo-=valor;
+				destino+=valor;
+			}
 
 
 }
